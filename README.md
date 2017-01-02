@@ -1,6 +1,6 @@
 # ParallelGenClust
 
-This is repository with source codes and datasets for the paper "*Suitability of Parallel Genetic Algorithm in Model-Based Gaussian Cluster Analysis*".
+This is the repository with source codes and datasets for the paper "*Suitability of Parallel Genetic Algorithm in Model-Based Gaussian Cluster Analysis*".
 
 In the folder *Impl of clus alg* are located source codes and tutorials of used clustering algorithms.
 
@@ -10,4 +10,4 @@ Namely:
  
 In the folder *datasets* are located all datasets used in experiments.
 
-In the folder *images* are plots of datasets used in experiments and corresponding plots with best clustering result.
+In the folder *images* are plots of datasets used in experiments and corresponding plots with the best clustering result.
