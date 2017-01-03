@@ -2,7 +2,7 @@
 
 This is the repository with source codes and datasets for the paper "*Suitability of Parallel Genetic Algorithm in Model-Based Gaussian Cluster Analysis*".
 
-In the folder *Impl of clus alg* are located source codes and tutorials of used clustering algorithms.
+In the folder *Impl of clus alg* source codes and tutorials of used clustering algorithms are located.
 
 Namely:
  * Parallel genetic algorithm for model-based (distribution based) Gaussian clustering
