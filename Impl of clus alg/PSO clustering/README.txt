@@ -27,4 +27,4 @@ To cluster data, run compiled program with parameters. Use program mpirun.
 2 parameter is name of result file.
 
 Example of running on 2 nodes specified in machine file named nodes:
-mpirun -np 2 -machinefile nodes /home/3xcsokal/pso-mpi/program.exe /home/3xcsokal/data/iris.data result.txt
+mpirun -np 2 -machinefile nodes /home/sample_user/pso-mpi/program.exe /home/sample_user/data/iris.data result.txt
