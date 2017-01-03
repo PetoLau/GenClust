@@ -3,11 +3,11 @@ OpenMPI or Mpich
 GNU GSL lib (https://www.gnu.org/software/gsl/)
 GCC
 --------------------------------------------
-Suggest we installed GSL in folder /home/3xcsokal/gsl-libs/lib , then commands to compile are:
+Suggest we installed GSL in folder /home/sample_user/gsl-libs/lib , then commands to compile are:
 
-LD_LIBRARY_PATH=/home/3xcsokal/gsl-libs/lib
+LD_LIBRARY_PATH=/home/sample_user/gsl-libs/lib
 export LD_LIBRARY_PATH
-mpicc mpi_gen.c -o3 -fopenmp -I/home/3xcsokal/gsl-libs/include/ -L/home/3xcsokal/gsl-libs/lib -lm -Wl,-Bstatic -lgsl -lgslcblas -Wl,-Bdynamic -o program.exe
+mpicc MPI_GenClust.c -o3 -fopenmp -I/home/sample_user/gsl-libs/include/ -L/home/sample_user/gsl-libs/lib -lm -Wl,-Bstatic -lgsl -lgslcblas -Wl,-Bdynamic -o program.exe
 --------------------------------------------
 Commands to compile, when GSL and other libs are located in standard folder:
 
@@ -32,4 +32,4 @@ To cluster data, run compiled program with parameters. Use program mpirun.
 2 parameter is name of result file.
 
 Example of running on 2 nodes specified in machine file named nodes:
-mpirun -np 2 -machinefile nodes /home/3xcsokal/gen-mpi/program.exe /home/3xcsokal/data/iris.data result.txt
+mpirun -np 2 -machinefile nodes /home/sample_user/gen-mpi/program.exe /home/sample_user/data/iris.data result.txt
